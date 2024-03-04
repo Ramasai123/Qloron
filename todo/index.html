@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="do.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <h1>To Do List</h1>
+    <div id="total">
+        <div id="one">
+         <p>Task Name<p>
+         <input type="text" placeholder="task..." id="Task" autofocus>
+         <p>Priority<p>
+         <select name="select" id="select">
+            <option value="select" id="Select">Select</option>
+            <option value="High-prority" id="high">High-priority</option>
+            <option value="Low-prority" id="Low">Low-priority</option>
+         </select>
+         <button id="Submit">Submit</button>
+        </div>
+        <div id="two">
+         <table>
+            <tr>
+                <th>Task</th>
+                <th>Prority</th>
+                <th>Delete</th>
+            </tr>
+         </table>
+        </div>
+    </div>
+    <script src="do.js"></script>
+</body>
+</html>

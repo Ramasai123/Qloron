@@ -1,0 +1,229 @@
+body{
+    margin-right: 9%;
+}
+#total{
+background-color: #232D7C;
+color: #FFFFFF;
+display: flex;
+justify-content: space-between;
+width: 95%;
+margin-left: 6%;
+border-radius: 5%;
+margin-top: 3%;
+border: wheat;
+}
+button{
+    height: 30px;
+}
+#right img{
+    height: 290px;
+}
+#left{
+    margin-top: 2%;
+    margin-right: 50%;
+}
+#Services{
+     display: grid;
+     grid-template-columns: repeat(6,1fr);
+     border: 2px solid whitesmoke;
+     margin-left:0%;
+     margin-top: 3%;
+
+}
+#Service img{
+    background-color: #AECFED;
+}
+#Services P{
+    color: #AAAAAA;
+}
+ h2{
+    text-align: center;
+}
+.bckc{
+    background-color:#ACCEEC;
+}
+.rect{
+    border: 2px solid whitesmoke;
+}
+h5{
+    text-align: center;
+}
+#Work{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-area: 10%;
+    margin-left: 10%;
+}
+#diagram img{
+    height: 250px;
+    width: 330px;
+    gap: 40px;
+}
+@media(min-width:2560px){
+    .rect{
+        margin-left: 30%;
+    }
+    .rect img{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .bckc{
+        width: 80%;
+    }
+}
+@media (min-width:1200px) and (max-width:1500px){
+    #left {
+        margin-top: 2%;
+        margin-right: 10%;
+        width: 37%;
+        font-size: 21px;
+    }
+    .rect{
+        font-size: 10px;
+        text-align: center;
+        width: 150px;
+        margin-left: 35%;
+    }
+    .rect img{
+        width: 100%;
+    }
+    .rect p{
+        font-size: 19px;
+    }
+    .bckc{
+        width: 100%;
+    }
+    #diagram img{
+        height: 250px;
+        width: 250px;
+    }
+}
+@media(min-width:1000px) and (max-width:1200px){
+    #left {
+        margin-top: 2%;
+        margin-right: 10%;
+        width: 37%;
+        font-size: 21px;
+    }
+    #Services{
+        margin-left: 13%;
+    }
+    .rect{
+    margin-left: -17%;
+    font-size: 14px;
+   }
+   .rect img{
+    margin-left: 10%;
+   }
+   .rect h1{
+    margin-left: 10%;
+   }
+   .rect p{
+    margin-left: 10%;
+   }
+   #Services{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   }
+   #Work{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       gap: 100px;
+   }
+}
+@media(min-width:800px) and (max-width:1000px){
+    #left {
+        margin-top: 2%;
+        margin-right: -2%;
+        margin-top: 10%;
+        font-size: 13px;
+    }
+    #total{
+        width: 100%;
+    }
+    .rect{
+    margin-left: -17%;
+    font-size: 14px;
+    width: 95%;
+   }
+   #diagram img{
+    width: 326px;
+   }
+   .rect p{
+    font-size: 22px;
+   }
+   #som p{
+    font-size: 22px;
+   }
+   #Services{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   }
+   #Work{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       gap: 60px;
+       margin-left: 5%;
+   }
+}
+@media(max-width:500px){
+  
+        #total {
+            width: 109%;
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 0%;
+        }
+    #left{
+        margin-right: 8%;
+    }
+    #right img{
+        margin-left: -17%;
+    }
+    #Services{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 20%;
+        margin-left: 2%;
+    }
+    #Services img{
+        width: 117%;
+        background-color: #ACCEEC;
+    }
+    .bckc{
+        width: 100%;
+    }
+    .rect h1{
+        font-size: 20px;
+    }
+    #Work{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #som{
+       margin-left: -29px; 
+    }
+}
+@media (min-width:501px) and (max-width:799px){
+    #total {
+        width: 109%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0%;
+    }
+    #left {
+        margin-top: 0%;
+        margin-right: -21%;
+    }
+    #Services{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-left: -3%;
+    }
+    #Work{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 2%;
+        gap: 5%;
+    }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>TODO App</title>
+</head>
+<body>
+  <h1>TODO App</h1>
+
+  <div>
+    <!-- ** We are using form here  ***  -->
+    <form id="todo-form">
+      <label for="task">Task Name</label><br />
+      <input id="task" type="text" placeholder="Enter Task Name"  autofocus/><br />
+      <label for="priority">Priority</label><br />
+      <select id="priority">
+        <option value="">Select Priority</option>
+        <option id="h" value="High">High</option>
+        <option id="l"  value="Low">Low</option>
+      </select><br />
+      <input type="submit" />
+    </form>
+    <table id="todo-table">
+      <thead>
+        <tr>
+          <th>Task</th>
+          <th id="filter">Priority
+            <div >
+              <select id="all" onchange="filterTasks()">
+                <option value="all">All</option>
+                <option id="h" value="High">High</option>
+                <option id="l" value="Low">Low</option>
+              </select>
+              </div>
+          </th>
+          <th>Delete</th>
+        </tr>
+</div>
+      </thead>
+      <tbody id="task-list">
+        <!-- Tasks will be dynamically added here -->
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+  <script src="index.js"></script>
+</body>
+</html>
