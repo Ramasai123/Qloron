@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(91, 88, 88);
+}
+
+nav-bar h2 {
+  margin-top: 1%;
+}
+
+nav-bar {
+  justify-content: space-around;
+  border: 2px solid white;
+  font-weight: bold;
+  margin-bottom: 1%;
+  display: flex;
+}
+
+.Price {
+  color: #FC8320;
+}
+
+button {
+  height: 30px;
+  margin-top: 1%;
+  background-color: #FC8320;
+  color: white;
+  border: none;
+  padding: 0px 10px;
+}
+
+.free-trial {
+  /* display: flex; */
+  height: fit-content;
+  background-size: contain;
+  justify-content: space-around;
+  background: url("C:\Users\ramas\OneDrive\Pictures\Frame2609019.png");
+}
+
+.free-trial img {
+  /* height: 614px; */
+  width: 500px;
+  background: url("C:\Users\ramas\OneDrive\Pictures\Vector.png")no-repeat;
+  display: flex;
+  background-size: 100%;
+  /* margin-top: -11%; */
+  background-position: bottom;
+}
+
+.free {
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 55px;
+  margin-left: 5%;
+  width: 701px;
+  height: 278px;
+}
+
+.free button {
+  height: 50px;
+  margin-bottom: 1%;
+}
+
+.pricing h1 {
+  text-align: center;
+  color: #fc8320;
+}
+
+.pricing p {
+  text-align: center;
+  font-size: x-large;
+}
+
+.btns {
+  text-align: center;
+  margin-bottom: 1%;
+  background-color: white;
+}
+
+.btns button {
+  background-color: white;
+  color: black;
+  /* border: 1px solid black; */
+}
+
+img {
+  height: 600px;
+  /* width: 557px; */
+
+}
+
+.rectangle {
+  height: fit-content;
+  display: grid;
+  box-shadow: 0px 0px 5px 0px black;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.rectangle button {
+  border-radius: 10px;
+  height: 40px;
+}
+
+.All {
+  justify-content: center;
+  gap: 5%;
+  text-align: justify;
+  margin-bottom: 1%;
+  /* display: flex; */
+}
+
+.box {
+  height: fit-content;
+  padding: 20px;
+  background-color: rgba(3, 25, 46, 1);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 1%;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.questions {
+  height: fit-content;
+}
+
+.answer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1%;
+  margin-right: 2%;
+}
+
+.ans {
+  width: 80%;
+  margin-left: 10%;
+  border: 2px solid black;
+  height: fit-content;
+  padding: 30px;
+  margin-bottom: 1%;
+}
+
+.ans p {
+  font-size: 20px;
+}
+
+.bx {
+  width: 80%;
+  border: 2px solid rgb(128, 122, 122);
+  margin-left: 10%;
+  margin-bottom: 1%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  text-align: start;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: fit-content;
+  justify-content: space-evenly;
+  padding: 30px;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+footer h1 {
+  color: white;
+  margin-right: 20%;
+}
+
+input[type='checkbox'] {
+  accent-color: white;
+  background-color: white;
+}
+
+footer img {
+  height: 54.45px;
+  width: 154px;
+}
+.navigation-container {
+  display: flex;
+  justify-content: space-around;
+}
+.h{
+  margin-top: 10%;
+}
+.h h2{
+  margin-left: -90%;
+}
+footer h2 {
+  margin-bottom: 5%;
+  position: relative;
+}
+.navigation-container{
+  width: 100%;
+}
+@media (max-width:500px) {
+  .rectangle{
+      width: 80%;
+      margin-left: 10%;
+      margin-bottom: 3%;
+  }
+  .free p{
+      width: 50%;
+      font-size: 44px;
+  }
+  .free-trial img{
+     height: 300px;
+     margin-top: 2%;
+     background-size: 50%;
+  }
+  nav-bar{
+      display: flex;
+      /* width: 100%; */
+      text-align: left;
+      justify-content: space-around;
+      width: fit-content;
+  }
+   h2 span{
+    font-size: 14px;
+  }
+}
+@media (min-width:500px) {
+ footer{
+  display: flex;
+  flex-wrap: wrap;
+ }
+ .All{
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+ } 
+ nav-bar{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+ }
+ .free-trial{
+  display: flex;
+ }
+ .free-trial img{
+width: 450px;
+  
+ }
+ .free{
+  font-size: 44px;
+ }
+}
+@media (min-width:1000px) {
+  .free{
+    font-size: 62px;
+  }
+  .free-trial img{
+    margin-top: -11%;
+  }
+}
+@media (max-width: 600px) {
+  nav-bar {
+    flex-direction: column; /* Stack items vertically on small screens */
+    align-items: center; /* Center items horizontally on small screens */
+  }
+}

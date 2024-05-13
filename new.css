@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+nav-bar{
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    border-top: none;
+    border-bottom: 1px solid rgba(201,201,201,1);
+}
+nav-bar img{
+    width: 154px;
+    height: 54.59px;
+    top:13px;
+left: 60px;
+}
+nav-bar h2{
+ margin-top: 1%;
+    height: 27px;
+}
+nav-bar button{
+    padding: 12px 18px 12px 18px;
+    background-color: rgba(252,131,32,1);
+    height: fit-content;
+    top: 16px;
+    width: fit-content;
+    gap: 10px;
+    margin-top:1% ;
+}
+.free-trial{
+    background: url("C:\Users\ramas\OneDrive\Pictures\Vector6.png");
+    width: 100%;
+    height: fit-content;
+    top: 80px;
+    left: -12px;
+    justify-content: space-around;
+}
+img{
+    height: 662.27px;
+    width: 557px;
+}
+
+.free{
+    display: grid;
+    border-width: 701px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+}
+.free button{
+    width: 143px;
+    height: 48px;
+    padding: 12px 18px;
+    gap: 10px;
+    left: 63px;
+    background-color: rgba(252,131,32,1);
+}
+.pricing,.btns{
+    text-align: center;
+    margin-bottom: 1%;
+}
+.All{
+    width: 75%;
+    height: fit-content;
+    margin-left:30%;
+}
+.rectangle{
+    display: grid; 
+    margin-bottom: 2%;
+}
+.rectangle button{
+    background-color: rgba(252,131,32,1);
+    color: white;
+}
+.box{
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgba(3,25,46,1);
+    color: white;
+    height: fit-content;
+    padding: 30px;
+    font-weight: 600;
+    size: 40px;
+    line-height: 60px;
+    text-align: center;
+}
+input[type="checkbox"]{
+    accent-color: white;
+}
+.box button{
+    height: fit-content;
+    width: fit-content;
+    padding: 12px 18px;
+    border-radius: 3px;
+    background-color: rgba(252,131,32,1);
+}
